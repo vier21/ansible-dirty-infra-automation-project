@@ -1,0 +1,9 @@
+---
+
+- name: First Playbook
+  hosts: jenkins
+  become: true
+  gather_facts: true
+  tasks:
+    - name: Add Jenkins GPG key
+    - name: Install Jenkins

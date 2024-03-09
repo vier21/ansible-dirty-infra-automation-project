@@ -1,0 +1,1 @@
+# ansible-vagrant-project-dirty

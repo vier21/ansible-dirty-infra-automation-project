@@ -1,0 +1,12 @@
+---
+
+- name: Configure webserver with nginx
+  hosts: webservers
+  become: true
+  tasks:
+    - name: Ensure Nginx Installed
+      package:
+        name: nginx
+        update_cache: yes
+  
+    
